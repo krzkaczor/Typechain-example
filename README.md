@@ -9,7 +9,7 @@ yarn testrpc                   # here get one of the accounts address
 yarn deploy-smartcontracts     # here get dumbcontract address
 ```
 
-Grab dumbcontract address from truffle output and select one of the available in testrpc accounts and put it in `src/example.ts` as `dumbContractAddress` and `.
+Grab dumbcontract address from truffle output and select one of the available in testrpc accounts and put it in `src/example.ts` as `dumbContractAddress` and `accountAddress`.
 
 ```
 yarn build  # build ts application with webpack
