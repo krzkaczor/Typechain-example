@@ -1,0 +1,25 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "awesome-typescript-loader": "^3.2.3",
+    "truffle": "^3.4.9",
+    "typechain": "^0.0.1",
+    "typescript": "^2.5.2",
+    "web3-typescript-typings": "0.3.0",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "web3": "0.20.1"
+  },
+  "scripts": {
+    "testrpc": "testrpc",
+    "generate-typings": "typechain",
+    "deploy-smartcontracts": "bash -c \"cd truffle && rm -rf build && truffle migrate --reset\" ",
+    "start": "node dist/bundle.js",
+    "build": "rm -rf dist && typechain && webpack"
+  }
+}
