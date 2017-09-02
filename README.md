@@ -18,6 +18,6 @@ yarn start
 
 ## Structure
 
-`src` - typescript app communicating with smartcontracts
-`contracts` - directory with extracted ABIs. 
-`truffle` - full truffle project with original smart contracts. Normally this would be a different repository. 
+- `src` - typescript app communicating with smartcontracts
+- `contracts` - directory with extracted ABIs. 
+- `truffle` - full truffle project with original smart contracts. Normally this would be a different repository. 
