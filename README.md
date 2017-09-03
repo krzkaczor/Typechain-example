@@ -1,7 +1,7 @@
 # Typechain - Example
 
 ## Running locally
-Notice that `contracts` directory already has extracted ABIs. Run `yarn typechain` to generate initial typings for these files (this is also part of `yarn start` task).
+Notice that `contracts` directory already has extracted ABIs. Run `yarn typechain` to generate Typescript bindings (this is also part of `yarn start` task).
 
 ```
 yarn

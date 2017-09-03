@@ -3,6 +3,7 @@
     "noImplicitAny": true,
     "sourceMap": false,
     "strictNullChecks": true,
+    "target": "es5",
     "types": ["node"],
     "lib": ["es2015"],
     "module": "commonjs"

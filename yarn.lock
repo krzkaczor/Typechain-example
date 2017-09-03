@@ -2520,9 +2520,9 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
-typechain@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/typechain/-/typechain-0.0.1.tgz#107cb76e63bfb41d5a02089d5345c54195db9b8a"
+typechain@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/typechain/-/typechain-0.0.2.tgz#27d371a73d5ff55a07e8a9d1267e1fb888508c06"
   dependencies:
     chalk "^2.1.0"
     glob "^7.1.2"
