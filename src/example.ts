@@ -1,7 +1,7 @@
 import * as path from 'path';
 import * as Web3 from 'web3';
 import * as BigNumber from 'bignumber.js';
-import DumbContract from "../contracts/DumbContract";
+import { DumbContract } from "../contracts/DumbContract";
 
 const dumbContractAddress = "0x00000000000";
 const accountAddress = "0x00000000000";
